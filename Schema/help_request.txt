@@ -1,0 +1,17 @@
+_id: 5f1533bf66033f1e99046902
+    teamId: "5f1532b866033f1e990468f5"
+    createdBy: "5f1532b866033f1e990468f6"
+    createdAs: "PATIENT"
+    helpType: "OTHER"
+    briefDescription: "Test other"
+    startDate: 2020-07-22T05:30:00.000+00:00
+    startTime: "11:00 AM"
+    timezone: "Asia/Colombo"
+    adultCount: 0
+    childCount: 0
+    repeat: false
+    active: true
+    deleted: false
+    createdDate: 2020-07-20T06:03:43.227+00:00
+    modifiedDate: 2020-07-20T06:03:43.227+00:00
+_class: "com.ianacare.api.domain.help.HelpRequest"

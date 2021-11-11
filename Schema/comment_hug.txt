@@ -1,0 +1,10 @@
+_id:5f17c89366033f7fe2e4213b
+    teamId:"5f1528db66033f1e990468ba"
+    postId:"5f17c71f66033f7fe2e42124"
+    commentId:"5f17c87066033f7fe2e42138"
+    huggedBy:"5f1528db66033f1e990468bb"
+    hugged:true
+    deleted:false
+    createdDate:2020-07-22T05:03:15.839+00:00
+    modifiedDate:2020-07-22T05:03:15.839+00:00
+_class:"com.ianacare.api.domain.post.CommentHug"

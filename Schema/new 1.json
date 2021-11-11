@@ -1,0 +1,23 @@
+{
+	"resourceType": "AllergyIntolerance",
+	"id": "46f86685-9f81-4bf2-9e24-de20e1180eb6",
+	"onset": "2002-12-30T10:58:27+00:00",
+	"patient": {
+		"reference": "urn:uuid:19bcce58-6072-480a-b348-a9348ce8a160"
+	},
+	"substance": {
+		"coding": [
+			{
+				"system": "http://snomed.info/sct",
+				"code": "419474003",
+				"display": "Allergy to mould"
+			}
+		],
+		"text": "Allergy to mould"
+	},
+	"status": "inactive",
+	"criticality": "CRITL",
+	"type": "allergy",
+	"category": "food",
+	"meta": {}
+}

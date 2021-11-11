@@ -1,0 +1,24 @@
+_id: 5f1732f066033f1e99046f8f
+    teamId: "5f16a58866033f1e99046c2f_DEL_1595357089616"
+    message: ""
+    provider: "VENMO"
+    providerHandler: "@venmo edit "
+    createdBy: "5f16a58866033f1e99046c30"
+    modifiedBy: "5f16a72a66033f1e99046c49"
+    createdDate: 2020-07-21T18:24:48.745+00:00
+    modifiedDate: 2020-07-21T18:44:49.616+00:00
+    active: false
+    deleted: true
+    statusLog: Array
+        0:Object
+            _id:5f1732f066033f1e99046f8f
+            teamId:"5f16a58866033f1e99046c2f"
+            message:""
+            provider:"VENMO"
+            providerHandler:"@venmo "
+            createdBy:"5f16a58866033f1e99046c30"
+            createdDate:2020-07-21T18:24:48.745+00:00
+            modifiedDate:2020-07-21T18:24:48.745+00:00
+            active:true
+            deleted:false
+_class: "com.ianacare.api.domain.moneyrequest.MoneyRequest"

@@ -1,0 +1,22 @@
+_id: 5f1533bf66033f1e99046903
+    teamId: "5f1532b866033f1e990468f5"
+    helpRequestId: "5f1533bf66033f1e99046902"
+    createdAs: "PATIENT"
+    helpType: "OTHER"
+    briefDescription: "Test other"
+    startDate: 2020-07-22T05:30:00.000+00:00
+    startTime: "11:00 AM"
+    timezone: "Asia/Colombo"
+    createdBy: "5f1532b866033f1e990468f6"
+    status: "EXPIRED"
+    statusLog: Array
+        0:Object
+            message:"Expire start time elapsed help tasks scheduler job : Wed Jul 22 05:30:..."
+            previousStatus:"PENDING"
+            currentStatus:"EXPIRED"
+            changedDate:2020-07-22T05:30:00.021+00:00
+    createdDate: 2020-07-20T06:03:43.227+00:00
+    modifiedDate: 2020-07-22T05:30:00.021+00:00
+    active: true
+    deleted: false
+_class: "com.ianacare.api.domain.help.HelpTask"

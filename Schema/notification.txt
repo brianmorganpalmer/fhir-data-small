@@ -1,0 +1,20 @@
+_id: 5f15323d66033f1e990468ec
+    category: "TEAM"
+    type: "TEAM_ACTIVATE"
+    notifiedUserId: "5f15268366033f1e990468a9"
+    triggeredUserId: "5f152e2866033f1e990468ce"
+    notifiedTeamMemberId: "5f1526bc66033f1e990468af"
+    triggeredTeamMemberId: "5f15323c66033f1e990468eb"
+    teamId: "5f1526bc66033f1e990468ae"
+    notificationMsg: ""
+    actionRequired: false
+    smsNotified: false
+    emailNotified: false
+    pushNotified: true
+    read: true
+    active: true
+    deleted: false
+    createdDate: 2020-07-20T05:57:17.313+00:00
+    modifiedDate: 2020-07-20T05:57:17.313+00:00
+    readDate: 2020-07-21T09:24:24.295+00:00
+_class: "com.ianacare.api.domain.notification.Notification"

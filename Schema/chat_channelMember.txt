@@ -1,0 +1,13 @@
+_id :5f15356d66033f1e99046911
+	userId: "5f152d8466033f1e990468bf"
+    teamId: "5f15332666033f1e990468fd"
+    teamMemberId: "5f15332666033f1e990468fe"
+    channelId: "5f15356d66033f1e99046910"
+    providerChannelId: "CH848432f74f0b47f89ac6e98618badecd"
+    type: "SINGLE"
+    providerChannelMemberId: "MB4e6108681dd6477b9a4dc136920eec75"
+    role: "user"
+    deleted: true
+    createdDate: 2020-07-20T06:10:53.410+00:00
+    modifiedDate: 2020-07-20T07:51:29.421+00:00
+_class: "com.ianacare.api.domain.chat.ChannelMember"

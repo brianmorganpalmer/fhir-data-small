@@ -1,0 +1,112 @@
+{
+    "resourceType": "Claim",
+    "id": "a2d602c5-c373-4c90-8c6b-f6f2e3a4607f",
+    "type": "institutional",
+    "organization": {
+        "reference": "urn:uuid:c7cb7be4-fc46-4d08-8962-e1d01b8b5b91"
+    },
+    "use": "complete",
+    "patient": {
+        "reference": "urn:uuid:124328b7-f62f-4f3a-b430-8e746b347fd9"
+    },
+    "item": [{
+            "sequence": 1,
+            "type": {
+                "system": "http://hl7.org/fhir/v3/ActCode",
+                "code": "CSINV",
+                "display": "clinical service invoice"
+            },
+            "service": {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+            }
+        }, {
+            "sequence": 2,
+            "type": {
+                "system": "http://hl7.org/fhir/v3/ActCode",
+                "code": "CSINV",
+                "display": "clinical service invoice"
+            },
+            "service": {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "49",
+                "display": "Hib (PRP-OMP)"
+            },
+            "net": {
+                "value": 140.52,
+                "system": "urn:iso:std:iso:4217",
+                "code": "USD"
+            }
+        }, {
+            "sequence": 3,
+            "type": {
+                "system": "http://hl7.org/fhir/v3/ActCode",
+                "code": "CSINV",
+                "display": "clinical service invoice"
+            },
+            "service": {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "119",
+                "display": "rotavirus, monovalent"
+            },
+            "net": {
+                "value": 140.52,
+                "system": "urn:iso:std:iso:4217",
+                "code": "USD"
+            }
+        }, {
+            "sequence": 4,
+            "type": {
+                "system": "http://hl7.org/fhir/v3/ActCode",
+                "code": "CSINV",
+                "display": "clinical service invoice"
+            },
+            "service": {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "10",
+                "display": "IPV"
+            },
+            "net": {
+                "value": 140.52,
+                "system": "urn:iso:std:iso:4217",
+                "code": "USD"
+            }
+        }, {
+            "sequence": 5,
+            "type": {
+                "system": "http://hl7.org/fhir/v3/ActCode",
+                "code": "CSINV",
+                "display": "clinical service invoice"
+            },
+            "service": {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "20",
+                "display": "DTaP"
+            },
+            "net": {
+                "value": 140.52,
+                "system": "urn:iso:std:iso:4217",
+                "code": "USD"
+            }
+        }, {
+            "sequence": 6,
+            "type": {
+                "system": "http://hl7.org/fhir/v3/ActCode",
+                "code": "CSINV",
+                "display": "clinical service invoice"
+            },
+            "service": {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "133",
+                "display": "Pneumococcal conjugate PCV 13"
+            },
+            "net": {
+                "value": 140.52,
+                "system": "urn:iso:std:iso:4217",
+                "code": "USD"
+            }
+        }
+    ],
+    "meta": {}
+}

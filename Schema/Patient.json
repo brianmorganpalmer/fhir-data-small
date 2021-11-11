@@ -1,0 +1,147 @@
+{
+    "resourceType": "Patient",
+    "id": "6613a492-e3d3-4299-b402-afd29003da16",
+    "extension": [{
+            "url": "http://hl7.org/fhir/StructureDefinition/us-core-race",
+            "valueCodeableConcept": {
+                "coding": [{
+                        "system": "http://hl7.org/fhir/v3/Race",
+                        "code": "2106-3",
+                        "display": "White"
+                    }
+                ],
+                "text": "White"
+            }
+        }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/us-core-ethnicity",
+            "valueCodeableConcept": {
+                "coding": [{
+                        "system": "http://hl7.org/fhir/v3/Ethnicity",
+                        "code": "2186-5",
+                        "display": "Not Hispanic or Latino"
+                    }
+                ],
+                "text": "Not Hispanic or Latino"
+            }
+        }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+            "valueString": "Mikki421 Dibbert990"
+        }, {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "valueCode": "F"
+        }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+                "city": "Medford",
+                "state": "Massachusetts",
+                "country": "US"
+            }
+        }, {
+            "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+            "valueDecimal": 0.013568624300315107
+        }, {
+            "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+            "valueDecimal": 101.98643137569968
+        }
+    ],
+    "identifier": [{
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "049a14be-9e7c-4f0a-a212-d30ed7b176fe"
+        }, {
+            "system": "http://hospital.smarthealthit.org",
+            "value": "049a14be-9e7c-4f0a-a212-d30ed7b176fe",
+            "type": {
+                "coding": [{
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "MR"
+                    }
+                ]
+            }
+        }, {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "999-80-5560",
+            "type": {
+                "coding": [{
+                        "system": "http://hl7.org/fhir/identifier-type",
+                        "code": "SB"
+                    }
+                ]
+            }
+        }, {
+            "system": "urn:oid:2.16.840.1.113883.4.3.25",
+            "value": "S99932505",
+            "type": {
+                "coding": [{
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "DL"
+                    }
+                ]
+            }
+        }
+    ],
+    "name": [{
+            "use": "official",
+            "family": ["Purdy2"],
+            "given": ["Janita977"]
+        }, {
+            "use": "maiden",
+            "family": ["Hilpert278"],
+            "given": ["Janita977"]
+        }
+    ],
+    "telecom": [{
+            "system": "phone",
+            "value": "555-931-6978",
+            "use": "home"
+        }
+    ],
+    "gender": "female",
+    "birthDate": "1916-04-15",
+    "address": [{
+            "extension": [{
+                    "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                    "extension": [{
+                            "url": "latitude",
+                            "valueDecimal": 41.662727
+                        }, {
+                            "url": "longitude",
+                            "valueDecimal": -70.357208
+                        }
+                    ]
+                }
+            ],
+            "line": ["380 Becker Park Unit 81"],
+            "city": "Barnstable Town",
+            "state": "Massachusetts",
+            "postalCode": "02601",
+            "country": "US"
+        }
+    ],
+    "maritalStatus": {
+        "coding": [{
+                "system": "http://hl7.org/fhir/v3/MaritalStatus",
+                "code": "M"
+            }
+        ]
+    },
+    "multipleBirthBoolean": false,
+    "communication": [{
+            "language": {
+                "coding": [{
+                        "system": "urn:ietf:bcp:47",
+                        "code": "en-US",
+                        "display": "English"
+                    }
+                ],
+                "text": "English"
+            }
+        }
+    ],
+    "careProvider": [{
+            "reference": "f2979b2d-50c7-479d-8f41-79c358eaac8f:e52ee89f-8add-4d36-a1f8-60d2087876e7"
+        }
+    ],
+    "meta": {
+        "lastUpdated": "2019-05-03T19:04:56+00:00"
+    }
+}

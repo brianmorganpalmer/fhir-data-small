@@ -1,0 +1,9 @@
+_id:5db146049730676c6cd4aaa0
+    helpGiftCardType: "VISA"
+    vendorName: "www.giftcardmall.com"
+    vendorUrl: "http://www.anrdoezrs.net/links/9192357/type/dlg/https://www.giftcardma..."
+    vendorSuccessUrl: "https://www.giftcardmall.com/finishGroupBuy.action"
+    createdDate: 2019-10-23T10:45:02.296+00:00
+    modifiedDate: 2019-10-23T10:45:02.296+00:00
+    deleted: false
+_class: "com.ianacare.api.domain.help.HelpGiftCardVendor"

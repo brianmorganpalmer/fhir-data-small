@@ -1,0 +1,11 @@
+_id: 5f1526dd66033f1e990468b3
+    createdBy: "5f1526bc66033f1e990468af"
+    createdUser: "5f15268366033f1e990468a9"
+    teamId: "5f1526bc66033f1e990468ae"
+    imageType: "USER_AVATAR"
+    imageUrl: "https://s3.amazonaws.com/ianacare-qa/user/5f15268366033f1e990468a9/ava..."
+    createdDate: 2020-07-20T05:08:45.519+00:00
+    modifiedDate: 2020-07-20T05:09:20.406+00:00
+    active: true
+    deleted: true
+_class: "com.ianacare.api.domain.image.Image"
